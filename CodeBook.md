@@ -11,14 +11,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2.	The relevant files are then automatically loaded into R when the script is run.  They are:
-•	features.txt: List of all variables that correspond to the columns in the training and test sets
-•	activity_labels.txt: Identifies the corresponding name of the numerical activities found in y_train.txt and y_test.txt
-•	X_train.txt: Training set
-•	y_train.txt: Training activity labels
-•	subject_train.txt: Each row identifies the subject who performed the activity for each corresponding line of the training set
-•	X_test.txt: Test set
-•	y_test.txt: Test activity labels
-•	subject_test.txt: Each row identifies the subject who performed the activity for each row in the test set
+*	features.txt: List of all variables that correspond to the columns in the training and test sets
+*	activity_labels.txt: Identifies the corresponding name of the numerical activities found in y_train.txt and y_test.txt
+*	X_train.txt: Training set
+*	y_train.txt: Training activity labels
+*	subject_train.txt: Each row identifies the subject who performed the activity for each corresponding line of the training set
+*	X_test.txt: Test set
+*	y_test.txt: Test activity labels
+*	subject_test.txt: Each row identifies the subject who performed the activity for each row in the test set
  
 3.	Combine the training and the test sets as well as their subject and activity labels.  This leads to one data frame which has 10299 rows of 563 variables.
 4.	Find the columns that contain the mean and standard deviation and keep only these measurements.  This left us with 66 variables.  
