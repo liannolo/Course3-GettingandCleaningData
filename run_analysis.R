@@ -17,7 +17,7 @@ library(dplyr)
 
 
 #set working directory main folder
-mainfolder <- '/Users/laureniannolo/Documents/Coursera Data Science/Course 3- Getting Data/UCI HAR Dataset/'
+mainfolder <- '/Documents/Coursera Data Science/Course 3- Getting Data/UCI HAR Dataset/'
 
 
 #Read in the data using read.table
@@ -110,7 +110,7 @@ tidy_data_set <- full_data_set %>%
 
 #write the new data set to a text file
 setwd(mainfolder)
-write.table(tidy_data_set, "tidy_data_set.txt")
+write.table(tidy_data_set, "tidy_data_set.txt", row.names = FALSE)
 
 
 
