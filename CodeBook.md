@@ -24,7 +24,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4.	Find the columns that contain the mean and standard deviation and keep only these measurements.  This left us with 66 variables.  
 5.	Use descriptive names for the activities by substituting the numbers for the strings found in activity_labels.txt. 
 6.	Then, the variable names are cleaned up further.
-7.	Lastly, the script creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+7.	Lastly, the script creates a second, independent tidy data set with the average of each variable for each activity and each subject.  This file contains 180 rows of 66 variables.
 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
