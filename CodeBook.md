@@ -24,11 +24,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4.	Find the columns that contain the mean and standard deviation and keep only these measurements.  This left us with 66 variables.  
 5.	Use descriptive names for the activities by substituting the numbers for the strings found in activity_labels.txt. 
 6.	Then, the variable names are cleaned up further.
-7.	Lastly, the script creates a second, independent tidy data set with the average of each variable for each activity and each subject.  This file contains 180 rows of 66 variables as specified below:
+7.	Lastly, the script creates a second, independent tidy data set with the average of each variable for each activity and each subject.  This file contains 180 rows of 68 variables as specified below:
    
 # List of Variables in Final Data Set
 
- [1] "subject_num"                  "activity"                     "timebodyacc.mean.x"          
+ [1] "subject_num"                          "activity"                     "timebodyacc.mean.x"          
  [4] "timebodyacc.mean.y"           "timebodyacc.mean.z"           "timebodyacc.std.x"           
  [7] "timebodyacc.std.y"            "timebodyacc.std.z"            "timegravityacc.mean.x"       
 [10] "timegravityacc.mean.y"        "timegravityacc.mean.z"        "timegravityacc.std.x"        
