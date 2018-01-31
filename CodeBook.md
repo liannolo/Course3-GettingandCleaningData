@@ -21,7 +21,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 *	subject_test.txt: Each row identifies the subject who performed the activity for each row in the test set
  
 3.	Combine the training and the test sets as well as their subject and activity labels.  This leads to one data frame which has 10299 rows of 563 variables.
-4.	Find the columns that contain the mean and standard deviation and keep only these measurements.  This left us with 66 variables.  
+4.	Find the columns that contain the mean and standard deviation and keep only these measurements.  This left us with 68 variables.  
 5.	Use descriptive names for the activities by substituting the numbers for the strings found in activity_labels.txt. 
 6.	Then, the variable names are cleaned up further.
 7.	Lastly, the script creates a second, independent tidy data set with the average of each variable for each activity and each subject.  This file contains 180 rows of 68 variables as specified below:
