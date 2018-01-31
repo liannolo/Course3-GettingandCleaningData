@@ -61,6 +61,8 @@ cols_to_keep <- grep("mean\\(\\)|std\\(\\)",features_table$name)
 names(full_data_set) <- gsub("V", "", names(full_data_set))
 
 #get only columns in the cols_to_keep list and the subject and activity columns
+#since subject and activity columns are there, must add two to the cols_to_keep list 
+#in order to index correctly
 full_data_set <- full_data_set[,c(1,2,cols_to_keep+2)]
 
 
@@ -113,7 +115,6 @@ tidy_data_set <- full_data_set %>%
 setwd(mainfolder)
 write.table(tidy_data_set, "tidy_data_set.txt", row.names = FALSE)
 
-names(tidy_data_set)
 
 
 
